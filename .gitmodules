@@ -1,0 +1,3 @@
+[submodule "pkgs/zsh/antigen"]
+	path = pkgs/zsh/antigen
+	url = https://github.com/zsh-users/antigen.git
