@@ -6,7 +6,7 @@ zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 antigen use oh-my-zsh
 
-antigen bundles <<EOBUNDLES
+antigen bundles <<EOF
   colored-man-pages
   command-not-found
   docker
@@ -18,7 +18,7 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-syntax-highlighting
 
   ${0:A:h}/plugins/vallahaye
-EOBUNDLES
+EOF
 
 antigen theme agnoster
 

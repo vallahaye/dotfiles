@@ -2,13 +2,10 @@
 
 Configuration files for Emacs, Git, ZSH and more...
 
-## Getting started
+## Managing the dotfiles 
 
-### Dependencies
-
-GNU `make` and `stow >=2.2.2` are required to manage the dotfiles.
-
-### Installation
+[GNU Make](https://www.gnu.org/software/make/) and [GNU Stow](https://www.gnu.org/software/stow/)
+`2.2.2` or newer are required to manage the dotfiles.
 
 Run the following commands to install the dotfiles:
 
@@ -32,18 +29,14 @@ $ cd ~/.dotfiles
 $ make uninstall
 ```
 
-## Q&A
+## GitHub does dotfiles
 
 Why would I want my dotfiles on GitHub?
 
-- **_Backup_**, **_restore_**, and **_sync_** the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.
-- **_Learn_** from the community. Discover new tools for your toolbox and new tricks for the ones you already use.
+- **_Backup_**, **_restore_**, and **_sync_** the prefs and settings for your toolbox. Your
+dotfiles might be the most important files on your machine.
+- **_Learn_** from the community. Discover new tools for your toolbox and new tricks for the ones
+you already use.
 - **_Share_** what you’ve learned with the rest of us.
 
 More informations here: [GitHub does dotfiles](https://dotfiles.github.io/)
-
-## License
-
-© 2019 Valentin Lahaye
-
-This project is licensed under the terms of the MIT [license](LICENSE).
