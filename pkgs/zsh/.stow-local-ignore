@@ -1,3 +1,2 @@
 GNUmakefile
-antigen
-plugins
+vendor

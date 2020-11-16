@@ -6,9 +6,7 @@ alias zln="noglob zmv -L"
 alias zsy="noglob zmv -Ls"
 
 # YouTube-dl
-if (( $+commands[youtube-dl] )); then
-  alias ytdl="youtube-dl -o '%(title)s.%(ext)s' -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0"
-fi
+alias ytdl="youtube-dl -o '%(title)s.%(ext)s' -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0"
 
 # Docker and Docker Compose
 if (( $+commands[podman] )); then

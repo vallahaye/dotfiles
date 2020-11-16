@@ -1,6 +1,5 @@
-0="${(%):-%N}"
-
-source "${0:A:h}/antigen/antigen.zsh"
+_DOTFILES_ZSH_VENDOR_DIR="${${(%):-%N}:A:h}/vendor"
+source "$_DOTFILES_ZSH_VENDOR_DIR/antigen/antigen.zsh"
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 
@@ -21,7 +20,7 @@ antigen bundles <<EOF
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
 
-  ${0:A:h}/plugins/vallahaye
+  $_DOTFILES_ZSH_VENDOR_DIR/omz-plugins/vallahaye
 EOF
 
 antigen theme agnoster
