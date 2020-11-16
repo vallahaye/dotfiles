@@ -3,8 +3,8 @@
 pre-install:
 
 .PHONY: post-install
-.SILENT:
 post-install:
+	@mkdir -p ~/.zsh.d
 
 .PHONY: pre-uninstall
 .SILENT:

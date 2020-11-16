@@ -22,20 +22,6 @@
 The `docker` and `docker-compose` commands are aliased to `podman` and `podman-compose`
 respectively if they are installed.
 
-## Functions
+## Autoloading Functions
 
-The `extract` command allows you to extract archives in multiple formats:
-
-| Format     | Command      |
-|------------|--------------|
-| `.bz2`     | `bunzip2`    |
-| `.gz`      | `gunzip`     |
-| `.rar`     | `unrar x`    |
-| `.tar`     | `tar xf`     |
-| `.tar.bz2` | `tar xjf`    |
-| `.tbz2`    | `tar xjf`    |
-| `.targz`   | `tar xzf`    |
-| `.tgz`     | `tar xzf`    |
-| `.zip`     | `unzip`      |
-| `.Z`       | `uncompress` |
-| `.7z`      | `7z x`       |
+The `fpath` variable is set to automatically load the function definitions in `~/.zsh.d`.

@@ -8,9 +8,13 @@ antigen use oh-my-zsh
 
 antigen bundles <<EOF
   colored-man-pages
+  colorize
   command-not-found
   docker
+  docker-compose
+  extract
   git
+  git-extras
   ssh-agent
 
   zsh-users/zsh-autosuggestions

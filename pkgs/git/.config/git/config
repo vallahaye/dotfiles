@@ -1,18 +1,6 @@
 [user]
 	name = Valentin Lahaye
 	email = valentin.lahaye@gmail.com
-[alias]
-	amend = commit --amend
-	commend = commit --amend --no-edit
-	glog = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
-	hide = update-index --assume-unchanged
-	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-	last = log -1 HEAD
-	please = push --force-with-lease
-	uncommit = reset --mixed HEAD~
-	unhide = update-index --no-assume-unchanged
-	unstage = reset HEAD --
-	visual = !gitk
 [commit]
 	gpgsign = false
 	template = ~/.config/git/message

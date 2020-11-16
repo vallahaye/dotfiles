@@ -4,7 +4,7 @@ pre-install:
 
 .PHONY: post-install
 post-install:
-	@chmod 700 ~/.ssh/
+	@chmod 700 ~/.ssh
 
 .PHONY: pre-uninstall
 .SILENT:
