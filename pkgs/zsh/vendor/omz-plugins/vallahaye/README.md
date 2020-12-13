@@ -21,7 +21,3 @@
 
 The `docker` and `docker-compose` commands are aliased to `podman` and `podman-compose`
 respectively if they are installed.
-
-## Autoloading Functions
-
-The `fpath` variable is set to automatically load the function definitions in `~/.zsh.d`.
