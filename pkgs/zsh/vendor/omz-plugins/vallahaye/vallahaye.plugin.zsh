@@ -18,11 +18,15 @@ if (( $+commands[podman-compose] )); then
 fi
 
 # Set FPATH so it includes user's functions if it exists
-[[ -d ~/.zsh.d ]] && fpath=(~/.zsh.d $fpath)
+if [[ -d ~/.zsh.d ]]; then
+  fpath=(~/.zsh.d $fpath)
+fi
 
 # Set PATH so it includes user's private bin if it exists
 if [[ -d ~/.local/bin ]]; then
   path=(~/.local/bin $path)
 else
-  [[ -d ~/bin ]] && path=(~/bin $path)
+  if [[ -d ~/bin ]]; then
+    path=(~/bin $path)
+  fi
 fi

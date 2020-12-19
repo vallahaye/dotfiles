@@ -1,3 +1,4 @@
+SHELL:=/bin/bash
 PACKAGES?=$(wildcard pkgs/*)
 PACKAGES:=$(notdir $(PACKAGES))
 

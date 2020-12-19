@@ -3,8 +3,8 @@
 pre-install:
 
 .PHONY: post-install
-.SILENT:
 post-install:
+	@ln -s ~/.config/Code ~/.config/Code\ -\ OSS
 
 .PHONY: pre-uninstall
 .SILENT:
